@@ -1,0 +1,67 @@
+body{
+  background-color: rgb(219, 219, 219);
+ }
+nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 60px 0;
+}
+nav>input{
+  color:white;
+  background-color: rgb(17, 165, 17);
+  border-radius: 5px;
+  height: 2.5rem;
+  width: 6rem;
+  font-size: 1.2rem;
+  border: none;
+}
+h1{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bold;
+  color: gray;
+  font-size: 1.5rem;
+}
+
+.bloco{
+  display: flex;
+  margin: 0 50px;
+  justify-content: center;
+}
+.card{
+  background-color: white;
+  margin: 10px;
+  width: 25%;
+}
+.card:hover{
+  box-shadow: 5px 10px 20px #888888;
+}
+.card>a{
+  text-decoration: none;
+  color: gray;
+}
+.card>a>p{
+  margin: 0 .5rem;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bold;
+}
+
+img{
+  width: 100%
+}
+.info{
+  display: flex;
+  align-items: center;
+  padding: 4rem .5rem .5rem;
+}
+.info>img{
+  width: 12px;
+  height: 12px;
+}
+.info>p:first-of-type{
+  margin: 0 auto 0 0;
+}
+.info>p{
+  margin: .2rem;
+}
