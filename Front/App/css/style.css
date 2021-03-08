@@ -1,0 +1,160 @@
+:root {
+  --green: #29b630;
+  --red:   #ec2929;
+  --gray:  #d3d3d3;
+  --font:  #303030;
+}
+
+body{
+  background-color: var(--gray);
+}
+
+header{
+  max-width: 800px;
+  margin: 10px auto;
+}
+p{
+  font-family: 'Roboto', sans-serif;
+  color: var(--font);
+}
+
+hr{
+  color: gray;
+}
+
+.bar{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.bar>p:nth-child(2){
+  position: relative;
+  left: 17%;
+  top: 10px
+}
+.bar>p:last-child{
+  margin: 0 0 0 25px;
+}
+.progress{
+  width: 20%;
+  height: 10px;
+  background-color: hotpink;
+}
+.progress-bar{
+  width: 100%;
+  height: 10px;
+  background-color: gray;
+}
+/* -----------container  */
+.container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 50px auto;
+  max-width: 800px;
+}
+/* ---------------info */
+.info{
+  height: 30rem;
+  width: 20rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 10px 0;
+}
+
+.profile{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+
+.profile>div:first-child{
+  width: 80px;
+  height: 80px;
+  background-image: url('../assets/profile.jpg');
+  background-size: cover;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+.profile>div:last-child{
+  width: 60%;
+  align-self: center;
+}
+
+.profile>div>p:first-child{
+  font-size: 1.5rem;
+}
+.profile>div>p:last-child{
+  font-size: .8rem;
+  color: #505050;
+}
+
+.challenge>div{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.challenge>div>p:first-child{
+font-size: .9rem;
+}
+
+.time{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.time>p{
+  font-size: 6rem;
+  font-family: 'Exo', sans-serif;
+  font-weight: bold;
+
+}
+
+.time>p:last-child{
+  background-color: white;
+  border-radius: 5px;
+}
+.time>p:first-child{
+  background-color: white;
+  border-radius: 5px;
+}
+
+.cycle{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: white;
+  height: 50px;
+  border-radius: 3px;
+  border-bottom: var(--green) solid 4px;
+
+}
+.cycle>div{
+  width: 15px;
+  height: 15px;
+  background-image: url('../assets/verificado.png');
+  background-size: cover;
+}
+
+
+/* ----------------card  */
+
+.card{
+  background-color: white;
+  height: 30rem;
+  width: 20rem;
+  margin: 10px 0;
+  box-shadow: 2px 2px 100px rgba(128, 128, 128, 0.63);
+}
+
+
+
+
+
+
